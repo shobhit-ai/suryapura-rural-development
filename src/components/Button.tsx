@@ -9,7 +9,6 @@ type ButtonProps = {
   className?: string
   onClick?: () => void
 }
-
 export function Button({
   children,
   to,
