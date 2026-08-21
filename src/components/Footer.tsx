@@ -11,10 +11,8 @@ export function Footer() {
             <div className="brand" style={{ marginBottom: '0.75rem' }}>
               <Logo size={40} />
               <span className="brand__text">
-                <strong style={{ color: '#fff' }}>{site.name}</strong>
-                <span style={{ color: 'rgba(255,255,255,0.7)' }}>
-                  {site.location}
-                </span>
+                <strong>{site.name}</strong>
+                <span>{site.location}</span>
               </span>
             </div>
             <p>{site.tagline}</p>

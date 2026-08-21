@@ -97,7 +97,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.75rem 0;
+  padding: 0.9rem 0;
 }
 
 .brand {
@@ -111,12 +111,15 @@
 .brand__text {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+  gap: 0.15rem;
+  line-height: 1.5;
   min-width: 0;
 }
 
 .brand__text strong {
   font-size: 0.98rem;
+  line-height: 1.55;
+  padding-block: 0.12em;
   color: var(--color-primary-dark);
   white-space: nowrap;
   overflow: hidden;
@@ -125,10 +128,20 @@
 
 .brand__text span {
   font-size: 0.75rem;
+  line-height: 1.55;
+  padding-block: 0.1em;
   color: var(--color-text-muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.footer .brand__text strong {
+  color: #fff;
+}
+
+.footer .brand__text span {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .nav {
